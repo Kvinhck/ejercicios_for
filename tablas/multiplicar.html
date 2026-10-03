@@ -9,42 +9,18 @@
   </head>
   <body>
     <div class="contenedor" id="txtContenedor">
-      <button class="btn" onclick="generarTablas()">PROBAR</button>
+        <p class="instrucciones">
+        Escribe un número del 1 al 10 y presiona <strong>PROBAR</strong> para ver su tabla de multiplicar.
+        </p>
+        <input type="text" id="txtNumero" class="input-numero" placeholder="Ej: 5" />
+        <span class="ayuda" id="txtAyuda">Debe ser un número entero entre 1 y 10</span>
+        
+        
+        <button class="btn" onclick="generarTablas()">PROBAR</button>
 
       <h1 id="txtTitulo">Tabla del...</h1>
 
-      <table class="tabla" id="txtTabla" >
-        <!--<tr>
-          <td>3 x 1 = 3</td>
-        </tr>
-        <tr>
-          <td>3 x 2 = 6</td>
-        </tr>
-        <tr>
-          <td>3 x 3 = 9</td>
-        </tr>
-        <tr>
-          <td>3 x 4 = 12</td>
-        </tr>
-        <tr>
-          <td>3 x 5 = 15</td>
-        </tr>
-        <tr>
-          <td>3 x 6 = 18</td>
-        </tr>
-        <tr>
-          <td>3 x 7 = 21</td>
-        </tr>
-        <tr>
-          <td>3 x 8 = 24</td>
-        </tr>
-        <tr>
-          <td>3 x 9 = 27</td>
-        </tr>
-        <tr>
-          <td>3 x 10 = 30</td>
-        </tr>-->
-      </table>
+      <table class="tabla" id="txtTabla" ></table>
 
       <footer class="pie">creado por: Yo mimo, la pamilia</footer>
     </div>
